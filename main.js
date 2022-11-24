@@ -8,7 +8,7 @@ function main()
     r.SetTargetFPS(60);
 	
     var model = r.LoadModel("guy.iqm");
-    //var anim = r.LoadModelAnimations("guy.iqm",0);
+    var anim = r.LoadModelAnimations("guy.iqm",0);
 
     var camera = {};
     camera.position = {x:10.0, y:10.0, z:10.0};
